@@ -1,0 +1,44 @@
+.aboutContent {
+    width: 979px;
+    margin: 0 auto;
+    margin-top: 85.5px;
+
+    .historyBanner {
+        width: 979px;
+        height: 379px;
+        background-image: linear-gradient(
+            rgba($site-yellow, 0.8),
+            rgba($site-yellow, 0.8)
+         ),
+            url("../images/about.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        margin-bottom: 52px;
+
+        .historyHeader {
+            font-size: 25px;
+            font-family: gill sans;
+            letter-spacing: 2.5px;
+            position: absolute;
+            top: 356px;
+        }
+
+        hr {
+            width: 229px;
+            border: 1px solid #000;
+            position: absolute;
+            top: 393px;
+        }
+    }
+
+    .historyTxt {
+        width: 980px;
+        height: 96px;   
+        font-size: 16px;
+        font-family: gill sans;
+        letter-spacing: 1.6px;
+        margin-bottom: 100px;
+    }
+}

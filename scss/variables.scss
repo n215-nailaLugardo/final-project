@@ -1,0 +1,23 @@
+$center: 0 auto;
+
+//this area is for widths anf height
+$site-width: 1280px;
+$banner-footer-width: 1280px;
+$banner-height: 500px;
+$footer-height: 454px;
+
+//this is for site colors
+$site-yellow: #FFD140;
+$site-white: #FFFFFF;
+$site-grey: #A8A8A8;
+$site-purple: #540D6E;
+$site-darkPink: #EE4367;
+$site-lightPink: #F56B88;
+$site-turquiose: #3BCEAB;
+$site-green: #08AD69;
+
+//this area is for fonts
+@font-face {
+    font-family: 'PTSerifRegular';
+    src: url("PTSerif-Regular.ttf") format('truetype');
+}

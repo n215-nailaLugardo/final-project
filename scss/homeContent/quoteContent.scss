@@ -1,0 +1,35 @@
+.quoteContent {
+    width: $site-width;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+
+    .quoteTxt {
+        margin-left: 246px;
+        width: 789px;
+        height: 90px;
+        font-size: 15px;
+        letter-spacing: 1px;
+        position: absolute;
+        top: 78px;
+
+        .quote {
+            color: $site-yellow;
+            font-family: gill sans;
+            font-style: italic;
+            letter-spacing: .9px;
+        }
+
+        .quoteName {
+            margin-top: 20px;
+            color: $site-darkPink;
+            font-family: 'PTSerifRegular', serif;
+        }
+
+        .quoteDesc {
+            margin-top: -12px;
+            color: $site-grey;
+            font-size: 10px;
+        }
+    }
+}

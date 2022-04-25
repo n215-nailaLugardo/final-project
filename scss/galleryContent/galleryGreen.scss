@@ -1,0 +1,58 @@
+.galleryGreenBanner {
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 50.5px;
+    margin-bottom: 50.5px;
+    width: 981px;
+    height: 401px;
+    background-image: linear-gradient(
+            rgba($site-green, 0.7),
+            rgba($site-green, 0.7)
+         ),
+            url("../images/3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+    .galleryTxt {
+        font-family: gill sans;
+        color: #08AD69;
+        display: flex;
+        text-shadow: 5px 5px 6px #00000029;
+
+        .galleryNum {
+            font-size: 300px;
+            position: absolute;
+            top: 126px;
+        }
+
+        .galleryHeader {
+            font-size: 140px;
+            position: absolute;
+            top: 273px;
+            left: 210px;
+        }
+    }
+}
+
+.galleryInfo {
+    width: 980px;
+    margin: 0 auto;
+    margin-bottom: 73px;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 1.6px;
+    font-family: gill sans;
+    font-style: italic;
+    
+    .leftTxt {
+        width: 490px;
+        height: 133px;
+    }
+
+    .rightTxt {
+        width: 451px;
+        height: 133px;
+    }
+}

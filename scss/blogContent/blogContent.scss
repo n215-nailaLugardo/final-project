@@ -1,0 +1,83 @@
+.blogContent {
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 65.5px;
+    margin-bottom: 86px;
+
+    .blogHeader {
+        font-size: 25px;
+        font-family: gill sans;
+        letter-spacing: 2.5px;
+        margin-bottom: 30px;
+
+        hr {
+            width: 229px;
+            border: 1px solid #000;
+        }
+    }
+
+    .blogRow {
+        width: 980px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        .blogVisuals {
+            display: flex;
+
+            .blogDate{
+                background-color: $site-darkPink;
+                width: 60px;
+                height: 60px;
+                text-align: center;
+                color: $site-white;
+                position: relative;
+        
+                .blogDateDay {
+                    font-size: 22px;
+                    font-family: gill sans;
+                    font-weight: bold;
+                    position: absolute;
+                    top: 10px;
+                    left: 17px; 
+                }
+        
+                .blogDateMonth {
+                    font-size: 12px; 
+                    font-family: gill sans ;
+                    position: absolute;
+                    top: 35px; 
+                    left: 20px;
+                }
+            }
+
+            .blogImg {
+                width: 380px;
+                height: 140px;
+                background-image: url("../images/blog.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                margin-left: 20px;
+            }
+        }
+
+        .blogTxt {
+            margin-top: 20px;
+            margin-bottom: 30px;
+            font-family: gill sans;
+            position: relative;
+            left: 80px;
+        
+            .blackTxt {
+                font-size: 15px;
+            }
+        
+            .pinkTxt {
+                color: $site-darkPink;
+                width: 380px;
+                font-size: 13px;
+            }
+        }
+    }
+}

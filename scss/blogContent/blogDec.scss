@@ -1,0 +1,66 @@
+.blogDec {
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 55.5px;
+
+    .blogHeader {
+        width: 981px;
+        height: 300px;
+        background-image: linear-gradient(
+            rgba($site-darkPink, 0.6),
+            rgba($site-darkPink, 0.6)
+         ),
+            url("../images/blog.jpg");
+        background-size: cover;
+        background-position-y: center;
+        background-repeat: no-repeat;
+
+        .blogDate{
+            background-color: $site-darkPink;
+            width: 155px;
+            height: 155px;
+            text-align: center;
+            color: $site-white;
+            position: relative;
+            top: 72px;
+            left: 412px;
+    
+            .blogDateDay {
+                font-size: 55px;
+                font-family: gill sans;
+                font-weight: bold;
+                position: absolute;
+                top: 26px;
+                left: 44px; 
+            }
+    
+            .blogDateMonth {
+                font-size: 31px; 
+                font-family: gill sans ;
+                font-weight: lighter;
+                position: absolute;
+                top: 92px; 
+                left: 45px;
+            }
+        }
+    }
+
+    .blogTxt {
+        margin-bottom: 151px;
+        font-family: gill sans;
+        font-size: 20px;
+
+        .header {
+            font-weight: normal;
+            margin-top: 57px;
+            color: $site-darkPink;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-weight: lighter;
+            letter-spacing: 2px;
+            margin-bottom: 33px;
+        }
+    }
+}

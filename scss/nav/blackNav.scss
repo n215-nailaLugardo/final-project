@@ -1,0 +1,45 @@
+.blackNav {
+    width: 980px;
+    height: 92px;
+    margin: 0 auto;
+    border-bottom: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 99;
+
+    .logo {
+        color: #000;
+        display: flex;
+        align-items: flex-end;
+        border: 2px solid #000;
+        width: 92px;
+        height: 38px;
+        font-family: gill sans;
+        font-size: 20px;
+        letter-spacing: 2px;
+        white-space: nowrap;
+
+        p {
+            position: absolute;
+            top: 45px;
+            right: 905px;
+        }
+    }
+
+    .links {
+        a {
+            color: #000;
+            text-decoration: none;
+            font-family: gillSans;
+            letter-spacing: 1.5px;
+            font-size: 15px;
+        }
+
+        span {
+            color: $site-darkPink;
+            margin: 0 20px;
+        }
+    }
+}

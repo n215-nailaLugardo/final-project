@@ -1,0 +1,87 @@
+.eventsContent {
+    width: $site-width;
+    height: 320px;
+    margin: 0 auto;
+    background-color: $site-purple;
+    position: relative;
+
+    .eventsHeader {
+        color: $site-white;
+        font-size: 25px;
+        font-family: gill sans;
+        letter-spacing: 2.5px;
+        position: absolute;
+        top: 50px;
+        left: 40px;
+
+        hr {
+            width: 410px;
+            border: 1px solid $site-white;
+            position: absolute;
+            top: 34px;
+        }
+    }
+
+    .eventInfoRow {
+        width: $site-width;
+        display: flex;
+        justify-content: space-be;
+        
+        .eventInfo {
+            display: flex;
+            position: relative;
+            left: 40px;
+            top: 124px;
+            margin-right: -40px;
+    
+            .eventBoxDate{
+                background-color: $site-darkPink;
+                width: 60px;
+                height: 60px;
+                text-align: center;
+                color: $site-white;
+                position: relative;
+            
+                .eventDateDay {
+                    font-size: 22px;
+                    font-family: gill sans;
+                    font-weight: bold;
+                    position: absolute;
+                    top: 10px;
+                    left: 14px; 
+                }
+            
+                .eventDateMonth {
+                    font-size: 12px; 
+                    font-family: gill sans ;
+                    position: absolute;
+                    top: 35px; 
+                    left: 16px;
+                }
+            }
+    
+            .eventsTxt {
+                width: 220px;
+                height: 124px;
+                font-family: gill sans;
+                position: relative;
+                left: 20px;
+            
+                .whiteTxt {
+                    margin-top: 5px;
+                    color: $site-white;
+                    width: 140px;
+                    font-size: 15px;
+                }
+            
+                .pinkTxt {
+                    margin-top: -10px;
+                    color: $site-darkPink;
+                    width: 140px;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+}

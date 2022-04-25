@@ -1,0 +1,95 @@
+.galleryContent {
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 65.5px;
+
+    .galleryHeader {
+        font-size: 25px;
+        font-family: gill sans;
+        letter-spacing: 2.5px;
+    }
+
+    hr {
+        width: 229px;
+        border: 1px solid #000;
+        margin-bottom: 29.5px;
+    }
+
+    .galleryRow1 {
+        display: flex;
+        margin-bottom: 20px;
+
+        .yellowImg {
+            width: 489px;
+            height: 187px;
+            margin-right: 20px;
+            background-image: linear-gradient(
+            rgba($site-yellow, 0.7),
+            rgba($site-yellow, 0.7)
+         ),
+            url("../images/1.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .pinkImg {
+            width: 187px;
+            height: 187px;
+            margin-right: 20px;
+            background-image: linear-gradient(
+            rgba($site-darkPink, 0.7),
+            rgba($site-darkPink, 0.7)
+         ),
+            url("../images/2.jpeg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .greenImg {
+            width: 265px;
+            height: 187px;
+            background-image: linear-gradient(
+            rgba($site-green, 0.7),
+            rgba($site-green, 0.7)
+         ),
+            url("../images/3.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+
+    .galleryRow2 {
+        display: flex;
+        margin-bottom: 60px;
+
+        .purpleImg {
+            width: 603px;
+            height: 306px;
+            margin-right: 23px;
+            background-image: linear-gradient(
+                rgba($site-purple, 0.7),
+                rgba($site-purple, 0.7)
+             ),
+                url("../images/4.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+        }
+
+        .turquoiseImg {
+            width: 355px;
+            height: 306px;
+            background-image: linear-gradient(
+            rgba($site-turquiose, 0.7),
+            rgba($site-turquiose, 0.7)
+         ),
+            url("../images/5.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+}
